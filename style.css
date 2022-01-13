@@ -1,0 +1,113 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.color{
+    color: orange;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+.design{
+    border-left: 4px solid orangered;
+    border-image-slice: 1;
+    padding-left: 2%;
+}
+
+
+.flexible-container{
+
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,salmon);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+ }
+
+ .column {
+    float: left;
+    width: 30%;
+    
+   
+  }
+
+  .column img{
+      width: 80%;
+  }
+
+  #Mission{
+    width: 32%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 18px;
+    background-color: lightcyan;
+  }
+
+  #Vision{
+
+    width: 32%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 18px;
+    background-color: lightpink;
+
+  }
+
+  #Goals{
+
+    width: 32%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 18px;
+    background-color: lightgoldenrodyellow;
+
+
+  }
+
+  .banner{
+      background-image: url(img/dream-bg.png);
+      background-repeat: no-repeat;
+      background-position: left;
+  }
+
+  .footer-design{
+      width: 100%;
+      background-color: black;
+      height: 180px;
+  }
+
+  .footer-header{
+      padding-top: 50px;
+      color: white;
+      text-align: center;
+      font-family: 'Cookie', cursive;
+      font-size: 40px;
+  }
+
+  .footer-text{
+      color: lightslategray;
+      text-align: center;
+  }
